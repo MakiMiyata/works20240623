@@ -221,8 +221,10 @@ Works
   list-style: none;
 }
 
-.works-gallery li {
-  list-style: none;
+.work-item {
+  flex: 1 1 calc(33.333% - 20px);
+  box-sizing: border-box;
+  text-align: center; /* タイトルを中央に配置 */
 }
 
 .works-gallery img {
